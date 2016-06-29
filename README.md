@@ -2,9 +2,11 @@
 a simple http server based on netty
 
 Usage:
-[1] start the httpserver
+[1] compile and start the httpserver
 mvn assembly:assembly
-java -jar nettyhttpserver-0.1.0-SNAPSHOT.jar 
+java -jar nettyhttpserver-0.2.0-SNAPSHOT.jar host port
+example:
+java -jar nettyhttpserver-0.2.0-SNAPSHOT.jar 192.168.2.12 9001
 
 [2] Test with postman
 POST http://192.168.0.101:9001/rest/push/token
