@@ -11,5 +11,5 @@ java -jar nettyhttpserver-0.2.0-SNAPSHOT.jar 192.168.2.12 9001
 [2] Test with postman
 POST http://192.168.0.101:9001/rest/push/token
 Content-Type:application/json
-{"userId":"crtb9527","token":"e10adc3949ba59abbe56e057f20f883e"}
+{"userId":"test","token":"e10adc3949ba59abbe56e057f20f883e"}
 
